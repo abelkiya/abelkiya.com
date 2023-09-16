@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>አባ ጊዮርጊስ ዘጋሰጫ ቤተ መዕሀፍት</title>
+    <link rel="stylesheet" href="img/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--nav-->
+
+    <nav>
+        <h2>አባ ጊዮርጊስ ዘጋሰጫ</h2>
+        <div class="navigation">
+            <ul>
+                <img id="close-menu" src="img/close.png" alt="">
+                <li><a href="#">ቀዳሜ</a></li>
+                <li><a href="#">ስብከቶች</a></li>
+                <li><a href="#">መዝሙሮች</a></li>
+                <li><a href="#">መጽሐፍት</a></li>
+                <li><a href="#">ስለ እኛ</a></li>
+
+            </ul>
+            <img id="menu-btn" src="img/menu.png">
+        </div>
+    </nav>
+
+
+    <!--ouer courses-->
+    <section id="Home">
+
+    </section>
+    <script>
+        $('menu-btn').clink(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('close-menu').clink(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+   
+</body>
+</html>
